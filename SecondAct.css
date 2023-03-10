@@ -1,0 +1,45 @@
+body {
+ display:flex;
+ margin-bottom:10px;
+ background-color:white;
+ height:90vh;
+}
+.left-sidebar{
+  width:25%;
+  background-color:skyblue;
+  height:100%;
+  float:left;
+  margin:10px;
+  padding:20px;
+  border-radius:10px;
+
+}
+.main-content{
+  width:50%;
+  background-color:cyan;
+  height:100%;
+  padding:20px;
+  float:left;
+  margin:10px;
+  border-radius:10px;
+}
+.right-sidebar{
+  width:25%;
+  background-color: skyblue;
+  height:100%;
+  float:right;
+  margin:10px;
+  padding:20px;
+   border-radius:10px;
+}
+@media screen and (max-width:480px) {
+  body{
+  height:50vh;
+  background-color:lightgrey;
+  }
+}
+@media screen and (max-width:480px) {
+  .left-sidebar{
+    display:none;
+  }
+}
